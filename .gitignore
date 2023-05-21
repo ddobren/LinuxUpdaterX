@@ -1,0 +1,22 @@
+# Ignore log files
+/var/log/update_script.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore build/output files
+/bin/
+/build/
+/dist/
+
+# Ignore dependency directories
+/node_modules/
+/vendor/
